@@ -1,3 +1,1 @@
-a=[1,2,3,4]
-print(len(a))
-print(list(range(3,0,-1)))
+print(4//3)
