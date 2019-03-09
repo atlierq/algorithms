@@ -4,9 +4,6 @@ def merge_sort(collection):
         midpoint = length // 2
         left_half = merge_sort(collection[:midpoint])
         right_half = merge_sort(collection[midpoint:])
-        print(left_half)
-        print(midpoint)
-        print(right_half)
         i = 0
         j = 0
         k = 0
