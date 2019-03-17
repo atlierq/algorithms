@@ -8,7 +8,8 @@ def selection_sort(mylist):
         for k in range(i + 1, length):
             if mylist[k] < mylist[least]:
                 least = k
-            mylist[least], mylist[i] = (mylist[i], mylist[least])
+        mylist[least], mylist[i] = \
+            (mylist[i], mylist[least])
     return mylist
 
 

@@ -32,10 +32,11 @@ def divde_sort(list):
         else:
             list2.append(-i)
 
-    list1_1=radix_sort(list1)
+    list1_1 = radix_sort(list1)
     print(list1_1)
-    list2_2=radix_sort(list2)
+    list2_2 = radix_sort(list2)
     print(list2_2)
-    return [-i for i in reversed(list2_2)]+list2_2
+    return [-i for i in reversed(list2_2)] + list2_2
+
 
 test(divde_sort)
